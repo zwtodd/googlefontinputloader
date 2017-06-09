@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google Font to Input Loader</title>
+	</head>
 
+	<body>
+		<div class="wrapper">
+			<!-- Generic text for effect -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere in animi veniam exercitationem ab, esse non voluptas unde maxime quis cum assumenda nesciunt ut tenetur saepe aut, mollitia eum.</p>
+			<!-- Drop down list to hold each font name, first option is a "placeholder" option -->
+			<select id='google'>
+				<option value="" disabled selected>Select your font</option>
+			</select>
+		</div>
+
+		<!-- jQuery is nice to have -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Google WebFont API -->
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+		
+		<!-- Keep google fonts in seperate folder, as of writing 07/06/17 there are 817 font families, not including weights -->
+		<script src="googleFontsArrayPattern.js"></script>
+		<!-- Actual app function -->
+		<script src="googleFontsLoader.js"></script>
+	</body>
+
+</html>
