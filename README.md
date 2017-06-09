@@ -1,6 +1,9 @@
 # Google Font Input Loader
 Dynamically load a Google Font via Web Font Loader via a drop down list.
 
+# Demo
+https://zwtodd.github.io/googlefontinputloader/demo/
+
 
 # Why
 I spent a long time looking for a way to include large amounts of fonts for applications, and could not find a suitable approach. I found a code pen by https://codepen.io/hbrok/ that was very similar to my end goal, but not quite to where I needed it. I wanted to be able to use every Google Font available (at time of writing there are 817 fonts.) Also, due to speed issues, I did not want to individually load each font.
