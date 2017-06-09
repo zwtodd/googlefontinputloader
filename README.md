@@ -2,7 +2,8 @@
 Dynamically load a Google Font via Web Font Loader via a drop down list.
 
 # Demo
-https://zwtodd.github.io/googlefontinputloader/demo/
+[You can view a demo of this application here.](https://zwtodd.github.io/googlefontinputloader/demo/)
+
 
 
 # Why
